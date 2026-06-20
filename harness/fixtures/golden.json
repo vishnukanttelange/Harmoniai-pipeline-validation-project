@@ -1,0 +1,130 @@
+[
+  {
+    "name": "image:img-001.png",
+    "input_type": "image",
+    "input_ref": "img-001.png",
+    "expected_output": {
+      "measurements": {
+        "score": 94.977,
+        "confidence": 0.6693,
+        "duration_ms": 274.9
+      },
+      "metadata": {
+        "input_type": "image",
+        "pipeline_version": "mock-1.0.0"
+      }
+    }
+  },
+  {
+    "name": "image:img-002.png",
+    "input_type": "image",
+    "input_ref": "img-002.png",
+    "expected_output": {
+      "measurements": {
+        "score": 67.318,
+        "confidence": 0.8674,
+        "duration_ms": 299.5
+      },
+      "metadata": {
+        "input_type": "image",
+        "pipeline_version": "mock-1.0.0"
+      }
+    }
+  },
+  {
+    "name": "audio:a1.wav",
+    "input_type": "audio",
+    "input_ref": "a1.wav",
+    "expected_output": {
+      "measurements": {
+        "score": 42.242,
+        "confidence": 0.6097,
+        "duration_ms": 211.2
+      },
+      "metadata": {
+        "input_type": "audio",
+        "pipeline_version": "mock-1.0.0"
+      }
+    }
+  },
+  {
+    "name": "audio:a2.wav",
+    "input_type": "audio",
+    "input_ref": "a2.wav",
+    "expected_output": {
+      "measurements": {
+        "score": 26.313,
+        "confidence": 0.5634,
+        "duration_ms": 464.1
+      },
+      "metadata": {
+        "input_type": "audio",
+        "pipeline_version": "mock-1.0.0"
+      }
+    }
+  },
+  {
+    "name": "log:server-2024-01-01.log",
+    "input_type": "log",
+    "input_ref": "server-2024-01-01.log",
+    "expected_output": {
+      "measurements": {
+        "score": 43.397,
+        "confidence": 0.9053,
+        "duration_ms": 72.1
+      },
+      "metadata": {
+        "input_type": "log",
+        "pipeline_version": "mock-1.0.0"
+      }
+    }
+  },
+  {
+    "name": "log:server-2024-01-02.log",
+    "input_type": "log",
+    "input_ref": "server-2024-01-02.log",
+    "expected_output": {
+      "measurements": {
+        "score": 28.517,
+        "confidence": 0.5465,
+        "duration_ms": 463.6
+      },
+      "metadata": {
+        "input_type": "log",
+        "pipeline_version": "mock-1.0.0"
+      }
+    }
+  },
+  {
+    "name": "image:img-003.png",
+    "input_type": "image",
+    "input_ref": "img-003.png",
+    "expected_output": {
+      "measurements": {
+        "score": 21.534,
+        "confidence": 0.8463,
+        "duration_ms": 443.1
+      },
+      "metadata": {
+        "input_type": "image",
+        "pipeline_version": "mock-1.0.0"
+      }
+    }
+  },
+  {
+    "name": "video:clip-001.mp4",
+    "input_type": "video",
+    "input_ref": "clip-001.mp4",
+    "expected_output": {
+      "measurements": {
+        "score": 90.86,
+        "confidence": 0.6807,
+        "duration_ms": 205.9
+      },
+      "metadata": {
+        "input_type": "video",
+        "pipeline_version": "mock-1.0.0"
+      }
+    }
+  }
+]
